@@ -2,6 +2,7 @@
   "name": "yolov5-tfjs",
   "description": "Object detection application right in your browser using YOLOv5 and Tensorflow.js",
   "version": "1.0.0",
+  "private": false,
   "scripts": {
     "start": "vite",
     "build": "vite build",
