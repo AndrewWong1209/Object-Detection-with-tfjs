@@ -14,12 +14,13 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 const App = () => {
   // const [image, setImage] = useState(null);
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<MainPage />}/>
-        <Route path="/list_Result" element={<ListResultPage />}/>
-      </Routes>
-    </BrowserRouter>
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route path="/" element={<MainPage />}/>
+    //     <Route path="/list_Result" element={<ListResultPage />}/>
+    //   </Routes>
+    // </BrowserRouter>
+    <MainPage />
   );
 }; 
 
